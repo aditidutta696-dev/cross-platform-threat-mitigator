@@ -1,0 +1,13 @@
+# --- Networking & Sniffing ---
+scapy==2.5.0
+
+# --- Machine Learning & Data ---
+pandas
+numpy
+scikit-learn
+
+# --- Remote Orchestration ---
+paramiko
+
+# --- Environment Management ---
+python-dotenv
