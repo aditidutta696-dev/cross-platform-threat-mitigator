@@ -41,7 +41,7 @@ def process_packet(packet):
         src_ip = packet[IP].src
         
         # 🛡️ 1. Ignore your own machine (and loopback)
-        if src_ip == "192.168.187.48" or src_ip == "127.0.0.1":
+        if src_ip == "0.0.0.0" or src_ip == "0.0.0.0":
             return
 
         pkt_size = len(packet)
