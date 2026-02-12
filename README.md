@@ -80,10 +80,11 @@ KALI_PASS=your_password
 
 ## 🗺️ Future Roadmap
 
-* **TheHive Integration:** Automate case creation via API for professional SOC incident tracking.
-* **Web Dashboard:** A Flask-based UI to visualize live network traffic and AI confidence scores.
-* **Multi-Node Support:** Scaling the brain to manage multiple Linux endpoints simultaneously.
+Web Dashboard: Developing a Flask-based UI to provide real-time visualization of network traffic patterns and live AI confidence scores.
 
+Multi-Node Orchestration: Scaling the "Detection Brain" to manage and mitigate threats across a fleet of multiple Linux endpoints simultaneously.
+
+Deep Packet Inspection (DPI): Moving beyond header analysis to inspect packet payloads for more granular threat classification using Recurrent Neural Networks (RNNs).
 ---
 
 ## 📜 License & Disclaimer
